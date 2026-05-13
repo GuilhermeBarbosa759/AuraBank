@@ -1,5 +1,4 @@
 "use client";
-import { motion } from "framer-motion";
 import { Hexagon } from "lucide-react";
 import { 
   FaInstagram, 
@@ -39,7 +38,7 @@ export default function Footer() {
             <div className="flex items-center gap-2">
               <Hexagon className="text-emerald-400 w-8 h-8" />
               <span className="text-2xl font-bold text-slate-50 tracking-tight">
-                AuraBank<span className="text-emerald-400">.</span>
+                Aura<span className="text-emerald-400">.</span>
               </span>
             </div>
             <p className="text-slate-400 text-sm leading-relaxed max-w-xs">
@@ -47,16 +46,17 @@ export default function Footer() {
             </p>
           </div>
 
-          {/* Colunas de Links Dinâmicos */}
+          {/* Colunas de Itens (Não clicáveis) */}
           {footerLinks.map((section, idx) => (
             <div key={idx}>
               <h4 className="text-slate-50 font-bold mb-6 text-lg">{section.title}</h4>
               <ul className="space-y-4">
                 {section.links.map((link, linkIdx) => (
                   <li key={linkIdx}>
-                    <a href="#" className="text-slate-400 hover:text-emerald-400 text-sm transition-colors duration-200">
+                    {/* Alterado para span e removido cursor-pointer */}
+                    <span className="text-slate-400 hover:text-emerald-400 text-sm transition-colors duration-200 cursor-default">
                       {link}
-                    </a>
+                    </span>
                   </li>
                 ))}
               </ul>
@@ -70,23 +70,23 @@ export default function Footer() {
         {/* Rodapé Inferior */}
         <div className="flex flex-col md:flex-row justify-between items-center gap-8">
           
-          {/* Redes Sociais */}
+          {/* Redes Sociais (Também apenas visuais agora) */}
           <div className="flex gap-6">
-            <a href="#" className="text-slate-500 hover:text-emerald-400 transition-all transform hover:scale-110">
+            <span className="text-slate-500 hover:text-emerald-400 transition-colors cursor-default">
                 <FaInstagram size={22} />
-            </a>
-            <a href="#" className="text-slate-500 hover:text-emerald-400 transition-all transform hover:scale-110">
+            </span>
+            <span className="text-slate-500 hover:text-emerald-400 transition-colors cursor-default">
                 <FaLinkedinIn size={22} />
-            </a>
-            <a href="#" className="text-slate-500 hover:text-emerald-400 transition-all transform hover:scale-110">
+            </span>
+            <span className="text-slate-500 hover:text-emerald-400 transition-colors cursor-default">
                 <FaTwitter size={22} />
-            </a>
-            <a href="#" className="text-slate-500 hover:text-emerald-400 transition-all transform hover:scale-110">
+            </span>
+            <span className="text-slate-500 hover:text-emerald-400 transition-colors cursor-default">
                 <FaFacebookF size={20} />
-            </a>
-            <a href="#" className="text-slate-500 hover:text-emerald-400 transition-all transform hover:scale-110">
+            </span>
+            <span className="text-slate-500 hover:text-emerald-400 transition-colors cursor-default">
                 <FaYoutube size={22} />
-            </a>
+            </span>
           </div>
 
           {/* Dados Legais */}
