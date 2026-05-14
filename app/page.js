@@ -1,4 +1,4 @@
-"use client"; // Necessário para o Framer Motion no App Router
+"use client";
 import { motion } from "framer-motion";
 import Navbar from "../components/NavBar";
 import Benefits from "../components/Benefits";
@@ -8,12 +8,10 @@ import Footer from "../components/Footer";
 export default function Home() {
   return (
     <main className="min-h-screen bg-slate-900 text-slate-50 overflow-hidden font-sans pt-20"> 
-      <Navbar /> {/* <-- Adicionamos o componente aqui */}
+      <Navbar />
       
       <section className="relative flex flex-col lg:flex-row items-center justify-between px-8 lg:px-24 py-20 max-w-7xl mx-auto">
-        {/* ... (todo o resto do código da seção Hero continua exatamente igual) ... */}
-        
-        {/* Lado Esquerdo - Textos */}
+        {/* lado esquerdo - Texto */}
         <div className="lg:w-1/2 z-10">
           <motion.h1 
             initial={{ opacity: 0, y: 30 }}
@@ -48,7 +46,7 @@ export default function Home() {
           </motion.div>
         </div>
 
-        {/* Lado Direito - Imagem/Animação (Cartão Flutuando) */}
+        {/* lado direito - cartão */}
         <motion.div 
           initial={{ opacity: 0, scale: 0.8 }}
           animate={{ opacity: 1, scale: 1 }}
@@ -60,7 +58,6 @@ export default function Home() {
             transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
             className="w-64 h-96 bg-gradient-to-br from-slate-800 to-slate-700 rounded-2xl border border-slate-600 shadow-2xl flex flex-col justify-between p-6"
           >
-             {/* Simulação de um cartão de crédito */}
              <div className="flex justify-between items-center">
                 <span className="font-bold text-lg">Aura</span>
                 <span className="text-emerald-400">)))</span>
@@ -72,7 +69,7 @@ export default function Home() {
           </motion.div>
         </motion.div>
 
-        {/* Fundo Decorativo */}
+        {/* fundo*/}
         <div className="absolute top-1/2 right-0 -translate-y-1/2 w-[500px] h-[500px] bg-emerald-500/10 blur-[120px] rounded-full pointer-events-none" />
       </section>
       <Benefits />

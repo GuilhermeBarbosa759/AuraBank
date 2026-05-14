@@ -30,10 +30,10 @@ export default function Footer() {
     <footer className="bg-slate-950 border-t border-slate-900 pt-16 pb-8">
       <div className="max-w-7xl mx-auto px-8 lg:px-24">
         
-        {/* Grid Principal */}
+        {/* Grid*/}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
           
-          {/* Coluna 1: Logo e Descrição */}
+          {/*Logo e descrição */}
           <div className="space-y-6">
             <div className="flex items-center gap-2">
               <Hexagon className="text-emerald-400 w-8 h-8" />
@@ -46,7 +46,7 @@ export default function Footer() {
             </p>
           </div>
 
-          {/* Colunas de Itens (Estáticos com Hover) */}
+          {/* Colunas de itens */}
           {footerLinks.map((section, idx) => (
             <div key={idx}>
               <h4 className="text-slate-50 font-bold mb-6 text-lg">{section.title}</h4>
@@ -63,10 +63,8 @@ export default function Footer() {
           ))}
         </div>
 
-        {/* Linha Divisória */}
         <div className="h-[1px] w-full bg-slate-900 mb-8" />
 
-        {/* Rodapé Inferior */}
         <div className="flex flex-col md:flex-row justify-between items-center gap-8">
           
           {/* Redes Sociais */}
@@ -88,7 +86,7 @@ export default function Footer() {
             </span>
           </div>
 
-          {/* Dados Legais */}
+          {/* Dados Aura*/}
           <div className="text-center md:text-right">
             <p className="text-slate-500 text-xs">
               © {currentYear} Aura Bank S.A. - Instituição de Pagamento. 00.000.000/0001-00

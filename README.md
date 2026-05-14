@@ -1,39 +1,17 @@
-# AuraBank
-Projeto front-end feito para o PS da AtriaJr, empresa Jr de tecnologia.
+## AuraBank - Landing Page Institucional
 
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Este projeto foi desenvolvido como parte da Capacitação de Maio 2026 da Atria Junior. O objetivo foi criar uma Landing Page institucional responsiva para um banco digital fictício.
 
-## Getting Started
+## Integrantes
+ *Guilherme Barbosa de Brito
 
-First, run the development server:
+## O Projeto
+O AuraBank é uma solução bancária digital focada em simplicidade e exclusividade. O site foi construído seguindo os princípios de responsividade, garantindo uma experiência fluida tanto em diferentes tipos de telas.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Tecnologias Utilizadas
+- Next.js
+- Tailwind CSS (Estilização)
+- Lucid React (Ícones)
+- Git & GitHub (Controle de Versão)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+*Este projeto é de cunho educativo para a Capacitação de TI da Atria Junior.*

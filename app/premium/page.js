@@ -27,7 +27,7 @@ export default function PremiumPage() {
 
   return (
     <main className="min-h-screen bg-slate-950 text-slate-50 font-sans">
-      {/* Header Simples */}
+      {/* Header*/}
       <nav className="p-8 flex justify-between items-center max-w-7xl mx-auto">
         <Link href="/" className="text-2xl font-bold tracking-tighter">
           Aura<span className="text-emerald-400">.</span>
@@ -37,7 +37,7 @@ export default function PremiumPage() {
         </Link>
       </nav>
 
-      {/* Hero Section */}
+      {/* Hero*/}
       <section className="max-w-4xl mx-auto px-8 py-20 text-center">
         <div className="inline-block px-4 py-1.5 mb-6 rounded-full bg-emerald-500/10 border border-emerald-500/20">
           <span className="text-emerald-400 text-xs font-bold uppercase tracking-widest">Experiência Black</span>
@@ -53,7 +53,7 @@ export default function PremiumPage() {
         </button>
       </section>
 
-      {/* Grid de Benefícios */}
+      {/* Benefícios */}
       <section className="max-w-7xl mx-auto px-8 pb-32">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {benefits.map((item, index) => (
@@ -66,7 +66,7 @@ export default function PremiumPage() {
         </div>
       </section>
 
-      {/* Footer Simples */}
+      {/* Footer*/}
       <footer className="border-t border-slate-900 py-12 text-center">
         <p className="text-slate-600 text-xs uppercase tracking-widest font-medium">
           Aura Bank • 2026 • Exclusividade e Segurança

@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { CreditCard, Zap, TrendingUp, ShieldCheck } from "lucide-react";
 
 export default function Benefits() {
-  // Array com os dados dos nossos cartões de benefícios
+  // Array cartões de benefícios
   const benefits = [
     {
       icon: <CreditCard className="w-8 h-8 text-emerald-400" />,
@@ -27,13 +27,13 @@ export default function Benefits() {
     }
   ];
 
-  // Configurações do Framer Motion para o efeito cascata (stagger)
+  // efeito cascata - motion
   const containerVariants = {
     hidden: { opacity: 0 },
     visible: {
       opacity: 1,
       transition: {
-        staggerChildren: 0.2 // Atraso de 0.2s entre o surgimento de cada cartão
+        staggerChildren: 0.2
       }
     }
   };
@@ -46,12 +46,12 @@ export default function Benefits() {
   return (
     <section className="py-24 px-8 lg:px-24 max-w-7xl mx-auto" id="beneficios">
       
-      {/* Cabeçalho da Seção */}
+      {/* Cabeçalho */}
       <div className="text-center mb-16">
         <motion.h2 
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }} // Anima apenas na primeira vez que aparece na tela
+          viewport={{ once: true }} 
           transition={{ duration: 0.6 }}
           className="text-4xl md:text-5xl font-bold text-slate-50 mb-6"
         >
@@ -69,7 +69,7 @@ export default function Benefits() {
         </motion.p>
       </div>
 
-      {/* Grid de Cartões */}
+      {/*Cartões */}
       <motion.div 
         variants={containerVariants}
         initial="hidden"

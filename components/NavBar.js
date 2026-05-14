@@ -73,7 +73,6 @@ export default function NavBar() {
         )}
       </nav>
 
-      {/* Modais posicionados fora da TAG nav mas dentro do FRAGMENTO principal */}
       <LoginModal 
         isOpen={isLoginOpen} 
         onClose={() => setIsLoginOpen(false)} 
