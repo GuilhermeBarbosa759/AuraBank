@@ -42,7 +42,7 @@ export default function Footer() {
               </span>
             </div>
             <p className="text-slate-400 text-sm leading-relaxed max-w-xs">
-              Inovando a forma como você lida com seu dinheiro. Seguro, simples e totalmente digital para o seu dia a dia.
+              Inovando a forma como você lida com seu dinheiro.
             </p>
           </div>
 
