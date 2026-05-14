@@ -1,8 +1,4 @@
 "use client";
-<<<<<<< HEAD
-=======
-import { motion } from "framer-motion";
->>>>>>> 939fb92 (primeiro commit)
 import { Hexagon } from "lucide-react";
 import { 
   FaInstagram, 
@@ -42,39 +38,24 @@ export default function Footer() {
             <div className="flex items-center gap-2">
               <Hexagon className="text-emerald-400 w-8 h-8" />
               <span className="text-2xl font-bold text-slate-50 tracking-tight">
-<<<<<<< HEAD
                 Aura<span className="text-emerald-400">.</span>
-=======
-                AuraBank<span className="text-emerald-400">.</span>
->>>>>>> 939fb92 (primeiro commit)
               </span>
             </div>
             <p className="text-slate-400 text-sm leading-relaxed max-w-xs">
-              Inovando a forma como você lida com seu dinheiro.
+              Inovando a forma como você lida com seu dinheiro. Seguro, simples e totalmente digital para o seu dia a dia.
             </p>
           </div>
 
-<<<<<<< HEAD
-          {/* Colunas de Itens (Não clicáveis) */}
-=======
-          {/* Colunas de Links Dinâmicos */}
->>>>>>> 939fb92 (primeiro commit)
+          {/* Colunas de Itens (Estáticos com Hover) */}
           {footerLinks.map((section, idx) => (
             <div key={idx}>
               <h4 className="text-slate-50 font-bold mb-6 text-lg">{section.title}</h4>
               <ul className="space-y-4">
                 {section.links.map((link, linkIdx) => (
                   <li key={linkIdx}>
-<<<<<<< HEAD
-                    {/* Alterado para span e removido cursor-pointer */}
                     <span className="text-slate-400 hover:text-emerald-400 text-sm transition-colors duration-200 cursor-default">
                       {link}
                     </span>
-=======
-                    <a href="#" className="text-slate-400 hover:text-emerald-400 text-sm transition-colors duration-200">
-                      {link}
-                    </a>
->>>>>>> 939fb92 (primeiro commit)
                   </li>
                 ))}
               </ul>
@@ -88,43 +69,23 @@ export default function Footer() {
         {/* Rodapé Inferior */}
         <div className="flex flex-col md:flex-row justify-between items-center gap-8">
           
-<<<<<<< HEAD
-          {/* Redes Sociais (Também apenas visuais agora) */}
-          <div className="flex gap-6">
-            <span className="text-slate-500 hover:text-emerald-400 transition-colors cursor-default">
-                <FaInstagram size={22} />
-            </span>
-            <span className="text-slate-500 hover:text-emerald-400 transition-colors cursor-default">
-                <FaLinkedinIn size={22} />
-            </span>
-            <span className="text-slate-500 hover:text-emerald-400 transition-colors cursor-default">
-                <FaTwitter size={22} />
-            </span>
-            <span className="text-slate-500 hover:text-emerald-400 transition-colors cursor-default">
-                <FaFacebookF size={20} />
-            </span>
-            <span className="text-slate-500 hover:text-emerald-400 transition-colors cursor-default">
-                <FaYoutube size={22} />
-            </span>
-=======
           {/* Redes Sociais */}
           <div className="flex gap-6">
-            <a href="#" className="text-slate-500 hover:text-emerald-400 transition-all transform hover:scale-110">
+            <span className="text-slate-500 hover:text-emerald-400 transition-colors cursor-default">
                 <FaInstagram size={22} />
-            </a>
-            <a href="#" className="text-slate-500 hover:text-emerald-400 transition-all transform hover:scale-110">
+            </span>
+            <span className="text-slate-500 hover:text-emerald-400 transition-colors cursor-default">
                 <FaLinkedinIn size={22} />
-            </a>
-            <a href="#" className="text-slate-500 hover:text-emerald-400 transition-all transform hover:scale-110">
+            </span>
+            <span className="text-slate-500 hover:text-emerald-400 transition-colors cursor-default">
                 <FaTwitter size={22} />
-            </a>
-            <a href="#" className="text-slate-500 hover:text-emerald-400 transition-all transform hover:scale-110">
+            </span>
+            <span className="text-slate-500 hover:text-emerald-400 transition-colors cursor-default">
                 <FaFacebookF size={20} />
-            </a>
-            <a href="#" className="text-slate-500 hover:text-emerald-400 transition-all transform hover:scale-110">
+            </span>
+            <span className="text-slate-500 hover:text-emerald-400 transition-colors cursor-default">
                 <FaYoutube size={22} />
-            </a>
->>>>>>> 939fb92 (primeiro commit)
+            </span>
           </div>
 
           {/* Dados Legais */}
