@@ -4,7 +4,11 @@ import { ShieldCheck, Lock, Smartphone } from "lucide-react";
 
 export default function Security() {
   return (
+<<<<<<< HEAD
     <section className="py-24 bg-slate-950" id="seguranca">
+=======
+    <section className="py-24 bg-slate-950">
+>>>>>>> 939fb92 (primeiro commit)
       <div className="max-w-7xl mx-auto px-8 lg:px-24">
         
         {/* Parte 1: Texto de Entrada */}
