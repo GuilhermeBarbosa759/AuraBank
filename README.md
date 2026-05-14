@@ -1,3 +1,6 @@
+# AuraBank
+Projeto front-end feito para o PS da AtriaJr, empresa Jr de tecnologia.
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
