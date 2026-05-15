@@ -1,8 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
-  basePath: '/AuraBank',
-  assetPrefix: '/AuraBank', 
+  basePath: '/MEU-BANCO-APP',
+  assetPrefix: '/MEU-BANCO-APP', 
   images: {
     unoptimized: true,
   }
