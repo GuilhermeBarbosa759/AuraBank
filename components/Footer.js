@@ -1,11 +1,12 @@
 "use client";
+import Link from 'next/link';
 import { Hexagon } from "lucide-react";
-import { 
-  FaInstagram, 
-  FaLinkedinIn, 
-  FaTwitter, 
-  FaFacebookF, 
-  FaYoutube 
+import {
+  FaInstagram,
+  FaLinkedinIn,
+  FaTwitter,
+  FaFacebookF,
+  FaYoutube
 } from "react-icons/fa";
 
 export default function Footer() {
@@ -29,10 +30,10 @@ export default function Footer() {
   return (
     <footer className="bg-slate-950 border-t border-slate-900 pt-16 pb-8">
       <div className="max-w-7xl mx-auto px-8 lg:px-24">
-        
+
         {/* Grid*/}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
-          
+
           {/*Logo e descrição */}
           <div className="space-y-6">
             <div className="flex items-center gap-2">
@@ -66,24 +67,47 @@ export default function Footer() {
         <div className="h-[1px] w-full bg-slate-900 mb-8" />
 
         <div className="flex flex-col md:flex-row justify-between items-center gap-8">
-          
+
           {/* Redes Sociais */}
           <div className="flex gap-6">
-            <span className="text-slate-500 hover:text-emerald-400 transition-colors cursor-default">
-                <FaInstagram size={22} />
-            </span>
-            <span className="text-slate-500 hover:text-emerald-400 transition-colors cursor-default">
-                <FaLinkedinIn size={22} />
-            </span>
-            <span className="text-slate-500 hover:text-emerald-400 transition-colors cursor-default">
-                <FaTwitter size={22} />
-            </span>
-            <span className="text-slate-500 hover:text-emerald-400 transition-colors cursor-default">
-                <FaFacebookF size={20} />
-            </span>
-            <span className="text-slate-500 hover:text-emerald-400 transition-colors cursor-default">
-                <FaYoutube size={22} />
-            </span>
+            <Link
+              href="https://instagram.com/AuraBank"
+              target="_blank"
+              className="text-slate-500 hover:text-emerald-400 transition-all hover:scale-110"
+            >
+              <FaInstagram size={22} />
+            </Link>
+            <Link
+              href="https://linkedin.com/company/aurabank"
+              target="_blank"
+              className="text-slate-500 hover:text-emerald-400 transition-all hover:scale-110"
+            >
+              <FaLinkedinIn size={22} />
+            </Link>
+
+            <Link
+              href="https://twitter.com/AuraBank"
+              target="_blank"
+              className="text-slate-500 hover:text-emerald-400 transition-all hover:scale-110"
+            >
+              <FaTwitter size={22} />
+            </Link>
+
+            <Link
+              href="https://facebook.com/AuraBank"
+              target="_blank"
+              className="text-slate-500 hover:text-emerald-400 transition-all hover:scale-110"
+            >
+              <FaFacebookF size={20} />
+            </Link>
+
+            <Link
+              href="https://youtube.com/aurabank"
+              target="_blank"
+              className="text-slate-500 hover:text-emerald-400 transition-all hover:scale-110"
+            >
+              <FaYoutube size={22} />
+            </Link>
           </div>
 
           {/* Dados Aura*/}

@@ -1,9 +1,9 @@
 "use client";
 import { useState } from "react";
 import { Menu, X, Hexagon } from "lucide-react";
-import Link from "next/link";
+import Link from 'next/link';
 import LoginModal from "./LoginModal";
-import SignUpModal from "./SiginUpModal";
+import SiginUpModal from "./SiginUpModal";
 
 export default function NavBar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -23,14 +23,14 @@ export default function NavBar() {
     <>
       <nav className="fixed top-0 left-0 w-full z-50 bg-slate-900/90 backdrop-blur-md border-b border-slate-800/50">
         <div className="max-w-7xl mx-auto px-6 lg:px-24">
+
           <div className="flex items-center justify-between h-20">
-            
-            <Link href="/" className="flex items-center gap-2">
+            <a href="/" className="flex items-center gap-2 relative z-[100] cursor-pointer">
               <Hexagon className="text-emerald-400 w-8 h-8" />
               <span className="text-2xl font-bold text-slate-50">
                 Aura<span className="text-emerald-400">.</span>
               </span>
-            </Link>
+            </a>
 
             <div className="hidden md:flex items-center space-x-10">
               <div className="flex space-x-8">
@@ -73,16 +73,16 @@ export default function NavBar() {
         )}
       </nav>
 
-      <LoginModal 
-        isOpen={isLoginOpen} 
-        onClose={() => setIsLoginOpen(false)} 
-        openSignUp={switchToSignUp} 
+      <LoginModal
+        isOpen={isLoginOpen}
+        onClose={() => setIsLoginOpen(false)}
+        openSignUp={switchToSignUp}
       />
-      
-      <SignUpModal 
-        isOpen={isSignUpOpen} 
-        onClose={() => setIsSignUpOpen(false)} 
-        openLogin={switchToLogin} 
+
+      <SiginUpModal
+        isOpen={isSignUpOpen}
+        onClose={() => setIsSignUpOpen(false)}
+        openLogin={switchToLogin}
       />
     </>
   );

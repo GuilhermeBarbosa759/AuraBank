@@ -1,7 +1,7 @@
 "use client";
 import { X, Mail, Lock, User, CreditCard } from "lucide-react";
 
-export default function SignUpModal({ isOpen, onClose, openLogin }) {
+export default function SiginUpModal({ isOpen, onClose, openLogin }) {
   if (!isOpen) return null;
 
   return (
