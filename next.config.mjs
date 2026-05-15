@@ -1,6 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export', 
+  output: 'export',
+  basePath: '/AuraBank',
+  assetPrefix: '/AuraBank', 
   images: {
     unoptimized: true,
   }
