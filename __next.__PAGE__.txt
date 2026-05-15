@@ -1,9 +1,9 @@
 1:"$Sreact.fragment"
-2:I[47257,["/AuraBank/_next/static/chunks/01xlw8hd842-c.js","/AuraBank/_next/static/chunks/0d3shmwh5_nmn.js"],"ClientPageRoot"]
-3:I[81694,["/AuraBank/_next/static/chunks/01xlw8hd842-c.js","/AuraBank/_next/static/chunks/0d3shmwh5_nmn.js","/AuraBank/_next/static/chunks/03opdp-iugcbs.js","/AuraBank/_next/static/chunks/0wjh7_qzrb6h6.js"],"default"]
-6:I[97367,["/AuraBank/_next/static/chunks/01xlw8hd842-c.js","/AuraBank/_next/static/chunks/0d3shmwh5_nmn.js"],"OutletBoundary"]
+2:I[47257,["/MEU-BANCO-APP/_next/static/chunks/01xlw8hd842-c.js","/MEU-BANCO-APP/_next/static/chunks/0d3shmwh5_nmn.js"],"ClientPageRoot"]
+3:I[81694,["/MEU-BANCO-APP/_next/static/chunks/01xlw8hd842-c.js","/MEU-BANCO-APP/_next/static/chunks/0d3shmwh5_nmn.js","/MEU-BANCO-APP/_next/static/chunks/03opdp-iugcbs.js","/MEU-BANCO-APP/_next/static/chunks/0wjh7_qzrb6h6.js"],"default"]
+6:I[97367,["/MEU-BANCO-APP/_next/static/chunks/01xlw8hd842-c.js","/MEU-BANCO-APP/_next/static/chunks/0d3shmwh5_nmn.js"],"OutletBoundary"]
 7:"$Sreact.suspense"
-0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"Component":"$3","serverProvidedParams":{"searchParams":{},"params":{},"promises":["$@4","$@5"]}}],[["$","script","script-0",{"src":"/AuraBank/_next/static/chunks/03opdp-iugcbs.js","async":true}],["$","script","script-1",{"src":"/AuraBank/_next/static/chunks/0wjh7_qzrb6h6.js","async":true}]],["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"ipactSxM1tNb80DoH4xLW"}
+0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"Component":"$3","serverProvidedParams":{"searchParams":{},"params":{},"promises":["$@4","$@5"]}}],[["$","script","script-0",{"src":"/MEU-BANCO-APP/_next/static/chunks/03opdp-iugcbs.js","async":true}],["$","script","script-1",{"src":"/MEU-BANCO-APP/_next/static/chunks/0wjh7_qzrb6h6.js","async":true}]],["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"iWo-NM04thaGxEkgX-MKh"}
 4:{}
 5:"$0:rsc:props:children:0:props:serverProvidedParams:params"
 8:null
